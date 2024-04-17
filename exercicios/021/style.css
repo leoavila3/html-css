@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    background-color: darkgrey;
+}
+main { background-color: azure;
+    color: rgb(2, 1, 1);
+    text-align: justify;
+    border: 10px;
+    padding-right: auto;
+    padding-left: auto;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+
+}
+h1 {
+    text-align: center;
+}
+header{ width: 200px;
+    background-color: azure;
+    color: black;
+    text-align: justify;
+    border: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+section{
+    width: 200px;
+    background-color: azure;
+    color: black;
+    text-align: justify;
+    border: 10px;
+    padding: 10px;
+    margin: 10px;
+}

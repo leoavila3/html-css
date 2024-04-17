@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, rgb(77, 65, 65), rgb(165, 89, 89), rgb(47, 47, 158));
+    background-attachment: fixed; 
+}
+main {
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 10px 10px black;
+    border-radius: 10px;
+}
+p{
+    text-align: justify;
+}
+h1 {
+    color: rgb(255, 8, 8);
+}
+p{
+    color: blue;
+}

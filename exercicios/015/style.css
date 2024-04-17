@@ -1,0 +1,10 @@
+@charset "UFF-8";
+body {
+    background-color: rgb(64, 95, 95); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align: justify; font-size: larger;
+}
+h1 {
+    color: black;
+}
+p {
+    color: brown; font-size: small;
+}
