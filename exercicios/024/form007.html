@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 7</title>
+</head>
+<body>
+    <form action="#" method="get" autocomplete="on">
+
+        <p>
+            <label for="iest">Estado</label>
+            <select name="est" id="iest">
+        
+            <option value="" selected >---Escolha---</option>
+            <optgroup label="Sudeste">
+                <option value="Rj">Rio de Janeiro</option>
+                <option value="Sp">São Paulo</option>
+                <option value="Mg">Minas Gerais</option>
+            </optgroup>
+        </p>
+    </select>
+
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lisprof">
+            <datalist id="lisprof">
+                <option value="dev">desenvolvedor</option>
+            </datalist>
+        </p>
+
+        <p><label for="imsg">Mensagem</label>
+        <textarea name="msg" id="imsg"></textarea></p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
